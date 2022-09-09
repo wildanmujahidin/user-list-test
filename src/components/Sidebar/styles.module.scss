@@ -1,0 +1,68 @@
+.sidebar{
+  display: none;
+  // overflow: auto;
+  height: 100vh;
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  background: #dce7f1;
+
+  @media only screen and (min-width: 769px) {
+    display: block;
+  }
+
+  .sidebar__btnclose{
+    position: relative;
+    right: -16px;
+    top: 20px;
+  }
+
+  .sidebar__btnopen{
+    position: absolute;
+    right: -20px;
+    z-index: 10;
+    top: 20px;
+  }
+
+  .sidebar__btn{
+    background: #1f4869;
+    border-color: #1f4869;
+  }
+
+  .sidebar__avatardetail{
+    margin: 20px 0;
+    text-align: center;
+
+    .sidebar__avatarname{
+      font-family: 'Montserrat', sans-serif;
+      font-weight: bold;
+      color: #1f4869;
+      font-size: 18px;
+    }
+  }
+
+  .sidebar__avatarwrap{
+    position: relative;
+    text-align: center;
+    margin: 50px 0 20px 0;
+    
+    .sidebar__avatar{
+      position: relative;
+      z-index: 2;
+    }
+    .sidebar__avatarbg{
+      height: 50px;
+      position: absolute;
+      width: -webkit-fill-available;
+      z-index: 1;
+      bottom: 0;
+      border-radius: 20px 20px 0 0;
+      background:rgba(31, 72, 105, 0.6);
+    }
+
+    .sidebar__avatarbgclose{
+      display: none;
+    }
+  }
+}

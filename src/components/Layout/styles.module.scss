@@ -1,0 +1,21 @@
+.layout__sidebarclose{
+  @media only screen and (min-width: 769px) {
+    margin-left: 80px;
+  }
+}
+
+.layout{
+  background: white; 
+
+  @media only screen and (min-width: 769px) {
+    padding: 50px 40px 20px 40px;
+  }
+}
+
+
+.layout__sidebaropen{
+  @media only screen and (min-width: 769px) {
+    margin-left: 235px;
+    padding: 50px 10px 20px 10px;
+  }
+}

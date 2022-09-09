@@ -1,0 +1,69 @@
+
+.card{
+  padding: 20px 20px 0 20px;
+  margin-bottom: 20px;
+  position: relative;
+
+  .card__img{
+    height: 100px;
+    width: 100px;
+    z-index: 10;
+    position: relative;
+  }
+
+  .card__name{
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    color: #1f4869;
+  }
+
+  .card__favoriteicon{
+    color:#d6b374;
+    position: absolute;
+    z-index: 10;
+    top: 15%;
+    right: 0;
+    background: transparent;
+    box-shadow: none;
+
+    @media only screen and (min-width: 769px) {
+      top: 50%;
+      right: 40px;
+    }
+  }
+
+  .card__detail{
+    display: flex;
+    align-items: center;
+  }
+
+  .card__username{
+    padding: 3px 10px;
+    background: #dce7f1;
+    font-size: 10px;
+    color: #1f4869;
+    display: inline-block;
+    line-height: initial;
+    border-radius: 10px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  .card__wrapimg{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .card__imgbg{
+      background: #25557b;
+      border-radius: 30px 30px 0 0;
+      position: absolute;
+      height: 70%;
+      z-index: 1;
+      bottom: 0;
+      width: -webkit-fill-available;
+    }
+  }
+}

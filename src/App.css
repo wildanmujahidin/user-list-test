@@ -1,0 +1,47 @@
+@import "antd/dist/antd.min.css";
+
+ .ant-menu-vertical{
+  border-right: 1px solid transparent !important;
+}
+
+.ant-tabs-tab{
+  /* color: rgba(31, 72, 105, 0.6); */
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
+
+.ant-tabs{
+  color: rgba(31, 72, 105, 0.6);
+}
+
+.ant-btn-icon-only{
+  border: none;
+}
+
+.ant-menu-vertical{
+  /* background: #1f4869; */
+  background: transparent;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  color: #1f4869;
+}
+
+.ant-menu-vertical a{
+  color: #1f4869;
+}
+
+.ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn{
+  color: #1f4869;
+}
+
+.ant-tabs-ink-bar{
+  background: #1f4869;
+}
+
+.ant-tabs-top>.ant-tabs-nav:before{
+  border-bottom: 1px solid transparent;
+}
+
+.ant-drawer-body{
+  text-align: center;
+}

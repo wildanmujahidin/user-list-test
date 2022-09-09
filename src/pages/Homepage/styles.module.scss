@@ -1,0 +1,149 @@
+.homepage__item{
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+
+.homepage__title{
+  font-size: 30px;
+  font-weight: 800;
+  padding-left: 15px;
+
+  @media only screen and (min-width: 769px) {
+    padding-left: 0;
+    font-size: 34px;
+  }
+}
+
+.homepage__tab{
+  height: calc(100vh - 210px);
+  overflow-y: scroll;
+  scrollbar-width: none; 
+
+  @media only screen and (min-width: 769px) {
+    border-right: 1px solid rgba(31, 72, 105, 0.06);
+  }
+}
+.homepage__detailitem{
+  position: relative;
+  height: 100%;
+  width: 100%;
+  height: calc(100vh - 200px);
+  display: flex;
+  align-items: center;
+}
+
+.homepage__detailbtnfavorite{
+  color: #f6f6f6;
+  background: #1f4869;
+  border: 1px solid #1f4869;
+  box-shadow: none;
+  border-radius: 8px;
+  padding: 8px 20px;
+  height: inherit;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  margin-top: 40px;
+  width: 200px;
+
+  &:hover,
+  &:focus{
+    background: #f6f6f6;
+    color: #1f4869;
+    border-color: #1f4869;
+  }
+}
+.homepage__detailbtnremove{
+  background: #f6f6f6;
+  color: #1f4869;
+
+  &:hover,
+  &:focus{
+    color: #f6f6f6;
+    background: #1f4869;
+    box-shadow: none;
+    border-color: #1f4869;
+  }
+}
+
+// .homepagetabactive{
+//   box-shadow: red;
+// }
+
+.homepage__avatarbg{
+  height: 390px;
+  position: absolute;
+  background-color: rgba(31, 72, 105, 0.06);
+  width: 100%;
+  z-index: 1;
+  padding: 0 40px;
+  border-radius: 20px;
+}
+
+.homepage__detailwrap{
+  width: 100%;
+  padding: 0 40px;
+}
+
+.homepage__detailicon{
+  margin-right: 10px;
+}
+
+.homepage__detailtextwrap{
+  z-index: 10;
+  position: relative;
+}
+
+.homepage__tab::-webkit-scrollbar {
+  display: none;
+}
+
+.homepage__detaildesktop{
+  display: none;
+
+  @media only screen and (min-width: 769px) {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+    .homepage__detailavatar{
+      position: relative;
+      z-index: 10;
+      width: 250px;
+    }
+
+    .homepage__detailname{
+      font-weight: bold;
+      line-height: 30px;
+      color: #1f4869;
+      font-size: 20px;
+      margin-bottom: 10px;
+    }
+  }
+}
+
+.homepage__loading{
+  height: calc(100vh - 200px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.homepage__tabactive{
+  @media only screen and (min-width: 769px) {
+    background-color: rgba(214, 179, 116, 0.05);
+    border-radius: 8px;
+   }
+}
+
+.homepage__detailmobile{
+
+  .homepage__detail{
+    background-color: rgba(31, 72, 105, 0.06);
+    border-radius: 20px;
+    padding: 20px 30px;
+  }
+
+  @media only screen and (min-width: 769px) {
+    display: none;
+   }
+}

@@ -1,0 +1,51 @@
+.navbar{
+  padding: 20px 15px;
+
+  @media only screen and (min-width: 769px) {
+    display: none;
+  }
+}
+.navbar__wrapbtnopen{
+  text-align: right;
+}
+
+.navbar__btnopen{
+  background: #1f4869;
+  border-color: #1f4869;
+}
+
+.navbar__avatarwrap{
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.navbar__avatarbg{
+  height: 80px;
+  width: 80px;
+  background: #1f4869;
+  border-color: #1f4869;
+  position: absolute;
+  border-radius: 50%;
+  left: 50px;
+}
+
+.navbar__avatarname{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  color: #1f4869;
+  font-size: 18px;
+}
+
+.navbar__avatartitle{
+  font-size: 12px;
+  margin-bottom: 30px;
+}
+
+.navbar__btnmenu{
+  background: transparent;
+  border-color: transparent;
+  box-shadow: none;
+  font-family: 'Montserrat', sans-serif;
+  color: #1f4869;
+  font-weight: bold;
+}
