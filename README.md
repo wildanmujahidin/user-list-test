@@ -1,4 +1,4 @@
-# Documentation for Movie Web List
+# Documentation for User List Web
 
 ## File & Folder Naming
 
@@ -23,7 +23,8 @@ example:
 
 ## CSS Rules
 This project CSS is using: 
-- CSS in JS, Emotion.sh
+- CSS in JS
+- Mobile first approch
 
 ## Start Project
 - Clone the project from git repository.
@@ -44,25 +45,20 @@ In the project directory, you can run:
 
 
 ## Project Technologies
-[<img align="left" alt="Typescript" width="30px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" style="padding-right:10px;" />]()[<img align="left" alt="Eslint" width="30px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/eslint/eslint-original.svg" style="padding-right:10px;" />]()[<img align="left" alt="React" width="30px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" style="padding-right:10px;" />]()[<img align="left" alt="HTML5" width="30px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" style="padding-right:10px;" />]()`React Context`,`netlify`,`Emotion.sh`.
+[<img align="left" alt="Typescript" width="30px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" style="padding-right:10px;" />]()[<img align="left" alt="Eslint" width="30px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/eslint/eslint-original.svg" style="padding-right:10px;" />]()[<img align="left" alt="React" width="30px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" style="padding-right:10px;" />]()[<img align="left" alt="HTML5" width="30px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" style="padding-right:10px;" />]()[<img align="left" alt="Redux" width="30px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg" style="padding-right:10px;" />](),`netlify`,`ant design`.
 
 
 ## Deployment
-Deploy this project is using `netlify`. Here's the link https://movie-omdb-test.netlify.app/
+Deploy this project is using `netlify`. Here's the link https://user-list-test.netlify.app/
 
 ## Feature Website
-- SPA
-- View Movie List
-- View Detail Movie
-- View My Movie List
-- Remove & Save Movie
-- Skeleton Loader
-- Mobile First Media Query
-- Infinite Load More
+- View User List
+- View User Detail
+- Remove & Add Favorite
 
 
 ## Few of Website View
+<img width="1440" alt="Screen Shot 2022-09-09 at 12 18 08" src="https://user-images.githubusercontent.com/40421876/189276970-104c0d37-768b-486f-afe0-74274cb4fb37.png">
+<img width="431" alt="Screen Shot 2022-09-09 at 12 18 46" src="https://user-images.githubusercontent.com/40421876/189276984-6950efca-b1bf-4a4a-a4a9-bb8bc0425629.png">
 
-<img width="1000" alt="Screen Shot 2022-08-30 at 16 20 43" src="https://user-images.githubusercontent.com/40421876/187401729-291eff4d-08d7-432c-960a-7601daa0a9de.png">
-<img width="400" alt="Screen Shot 2022-08-30 at 16 20 33" src="https://user-images.githubusercontent.com/40421876/187401749-93367ee6-811e-4166-b1c0-19258afa80bc.png">
-# user-list-test
+
